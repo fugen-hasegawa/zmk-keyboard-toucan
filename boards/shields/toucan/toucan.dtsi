@@ -107,13 +107,13 @@
         compatible = "zmk,input-listener";
         status = "disabled";
         device = <&glidepoint_split>;
-        input-processors = <&zip_xy_scaler 100 100>; //X方向・Y方向の移動量を倍率変換する
+        input-processors = <&zip_xy_scaler 120 120>; //X方向・Y方向の移動量を倍率変換する
         scroller {
             layers = <1>;
             input-processors = <
                 &zip_xy_to_scroll_mapper 
-                &zip_scroll_scaler 5 5 //スクロール感度
-                //縦横スクロールの反転 &zip_scroll_transform INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT;
+                &zip_scroll_scaler 1 1 //スクロール感度
+                &zip_scroll_transform INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT; //縦横スクロールの反転
             >;
         };
     };
