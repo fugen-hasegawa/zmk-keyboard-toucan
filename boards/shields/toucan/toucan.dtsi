@@ -113,7 +113,7 @@
             layers = <1>;
             input-processors = <
                 &zip_xy_to_scroll_mapper 
-                &zip_scroll_scaler 1 16 //スクロール感度 1割る8 max16
+                &zip_scroll_scaler 1 32 //スクロール感度 1割る8 max16
                 //&zip_scroll_transform INPUT_TRANSFORM_X_INVERT //横スクロールの反転
                 &zip_scroll_transform INPUT_TRANSFORM_Y_INVERT //縦スクロールの反転
             >;
