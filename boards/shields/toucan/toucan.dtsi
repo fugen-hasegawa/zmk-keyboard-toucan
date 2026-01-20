@@ -105,7 +105,8 @@
 
     glidepoint_listener: glidepoint_listener {
         compatible = "zmk,input-listener";
-        status = "disabled";
+        //status = "disabled";
+        status = "okay";
         device = <&glidepoint_split>;
         input-processors = <&zip_xy_scaler 120 120>; //X方向・Y方向の移動量を倍率変換する
         scroller {
