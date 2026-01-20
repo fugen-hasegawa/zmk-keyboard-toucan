@@ -31,21 +31,21 @@
         num {
             display-name = "NUM";
             bindings = <
-&kp CARET  &kp MINUS  &kp N7  &kp N8  &kp NUMBER_9  &kp PLUS  &kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH  &kp DOLLAR  &kp LEFT_PARENTHESIS  &kp RPAR  &kp LEFT_SHIFT  &kp SLASH  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp ASTERISK  &kp PERCENT  &kp AT_SIGN  &kp AMPERSAND  &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LCTRL  &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &kp TILDE  &kp GRAVE  &kp UNDERSCORE  &kp PIPE  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LGUI  &kp SPACE  &kp INT_HENKAN  &kp BACKSPACE  &kp ENTER  &kp RALT
+&kp TAB  &kp MINUS  &kp N7  &kp N8  &kp NUMBER_9  &kp PLUS  &kp EXCLAMATION  &kp CARET  &kp HASH  &kp DOLLAR  &kp LEFT_PARENTHESIS  &kp RPAR  &kp LEFT_SHIFT  &kp SLASH  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp ASTERISK  &kp PERCENT  &kp AT_SIGN  &kp AMPERSAND  &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LCTRL  &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &kp TILDE  &kp GRAVE  &kp UNDERSCORE  &kp PIPE  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LGUI  &lt 1 SPACE  &kp INT_HENKAN  &kp BACKSPACE  &lt 2 ENTER  &kp RALT
             >;
         };
 
         function {
             display-name = "Functoin";
             bindings = <
-&kp TAB  &trans  &kp HOME  &kp UP_ARROW  &kp END  &kp PRINTSCREEN  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp DEL  &kp LSHIFT  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &trans  &kp LCTRL  &trans  &trans  &trans  &mkp MB2  &mkp MB1  &kp F11  &kp F12  &trans  &trans  &trans  &trans  &kp LGUI  &kp SPACE  &kp INT_HENKAN  &kp BACKSPACE  &kp ENTER  &kp RALT
+&kp TAB  &trans  &kp HOME  &kp UP_ARROW  &kp END  &kp PRINTSCREEN  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp DEL  &kp LSHIFT  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &trans  &kp LCTRL  &trans  &trans  &trans  &mkp MB2  &mkp MB1  &kp F11  &kp F12  &trans  &trans  &trans  &trans  &kp LGUI  &lt 1 SPACE  &kp INT_HENKAN  &kp BACKSPACE  &lt 2 ENTER  &kp RALT
             >;
         };
 
         adj {
             display-name = "ADJ";
             bindings = <
-&mo TAB  &trans  &trans  &trans  &trans  &trans  &kp C_VOL_DN  &kp C_MUTE  &kp C_VOL_UP  &trans  &trans  &kp DEL  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &trans  &trans  &trans  &trans  &trans  &bt LSHFT  &trans  &trans  &trans  &kt LA(LEFT)  &kt RA(RIGHT)  &trans  &trans  &trans  &trans  &trans  &trans  &kp LGUI  &kp SPACE  &kp INT_HENKAN  &kp BACKSPACE  &kp ENTER  &kp RALT
+&mo TAB  &trans  &trans  &trans  &trans  &trans  &kp C_VOL_DN  &kp C_MUTE  &kp C_VOL_UP  &trans  &trans  &kp DEL  &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &trans  &trans  &trans  &trans  &trans  &bt LSHFT  &trans  &trans  &trans  &kt LA(LEFT)  &kt RA(RIGHT)  &trans  &trans  &trans  &trans  &trans  &trans  &kp LGUI  &lt 1 SPACE  &kp INT_HENKAN  &kp BACKSPACE  &lt 2 ENTER  &kp RALT
             >;
         };
 
