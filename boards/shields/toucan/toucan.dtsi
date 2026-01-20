@@ -108,12 +108,12 @@
         //status = "disabled";
         status = "okay";
         device = <&glidepoint_split>;
-        input-processors = <&zip_xy_scaler 120 120>; //X方向・Y方向の移動量を倍率変換する
+        input-processors = <&zip_xy_scaler 150 150>; //X方向・Y方向の移動量を倍率変換する
         scroller {
             layers = <1>;
             input-processors = <
                 &zip_xy_to_scroll_mapper 
-                &zip_scroll_scaler 1 128 //スクロール感度 1割る8 max16
+                &zip_scroll_scaler 1 64 //スクロール感度 1割る8 max16
                 //&zip_scroll_transform INPUT_TRANSFORM_X_INVERT //横スクロールの反転
                 &zip_scroll_transform INPUT_TRANSFORM_Y_INVERT //縦スクロールの反転
             >;
