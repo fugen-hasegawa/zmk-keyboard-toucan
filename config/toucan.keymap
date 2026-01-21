@@ -31,7 +31,7 @@
         num {
             display-name = "NUM";
             bindings = <
-&kp TAB  &kp MINUS  &kp N7  &kp N8  &kp NUMBER_9  &kp PLUS  &kp EXCLAMATION  &kp CARET  &kp HASH  &kp DOLLAR  &kp LEFT_PARENTHESIS  &kp RPAR  &kp LEFT_SHIFT  &kp SLASH  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp ASTERISK  &kp PERCENT  &kp AT_SIGN  &kp AMPERSAND  &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LCTRL  &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &kp TILDE  &kp GRAVE  &kp UNDERSCORE  &kp PIPE  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LGUI  &lt 1 SPACE  &kp INT_HENKAN  &kp BACKSPACE  &lt 2 ENTER  &kp RALT
+&kp TAB  &kp MINUS  &kp N7  &kp N8  &kp NUMBER_9  &kp PLUS  &kp EXCLAMATION  &kp CARET  &kp HASH  &kp DOLLAR  &kp LEFT_PARENTHESIS  &kp RPAR  &kp LEFT_SHIFT  &kp SLASH  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp ASTERISK  &kp PERCENT  &kp AT_SIGN  &kp AMPERSAND  &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LCTRL  &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL  &kp TILDE  &kp GRAVE  &kp UNDERSCORE  &kp PIPE  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LGUI  &lt 1 SPACE  &kp LANG_ZENKAKUHANKAKU  &kp BACKSPACE  &lt 2 ENTER  &kp RALT
             >;
         };
 
